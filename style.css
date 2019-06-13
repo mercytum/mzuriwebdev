@@ -121,7 +121,6 @@
     margin: 0px;
     text-align: center;
     justify-self: center;
-
 }
 
 .mySlides2 {
@@ -144,7 +143,6 @@
 .menu_bar {
     width: 70%;
     margin-left: 55px;
-
 }
 
 .arrow1{
@@ -240,4 +238,213 @@
     height: 40%;
     width: 30%;
     margin-left: 10%;
+}
+
+.main{
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.services_top {
+    height: 50%;
+    margin-right: 7%;
+    margin-left: 6%;
+    display: flex;
+    flex-direction: row;
+}
+
+.services_bottom {
+    height: 50%;
+    margin-right: 7%;
+    margin-left: 6%;
+    display: flex;
+    flex-direction: row;
+}
+
+.our_services {
+    background-color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.our_services h1 {
+    color: rgb(103,193,244);
+    width: 80%;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+}
+
+.services p {
+    margin-left: 2%;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.science {
+    background-color: rgb(102,224,163);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0%;
+}
+
+.science h2 {
+    color: rgb(2,113,177);
+    font-size: 34px;
+    width: 90%;
+    margin-top: 20%;
+    margin-bottom: 0%;
+}
+
+.science p {
+    color: black;
+    font-weight: 400;
+    width: 95%;
+    font-size: 14px;
+    margin:0;
+}
+
+.science img {
+    align-self: flex-end;
+    margin-top: 5%;
+    width: 215px;
+    height: 145px;
+}
+
+.engineering {
+    background-color: rgb(251,251,251);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.engineering img {
+    align-self: flex-end;
+    width: 200px;
+    height: 135px;
+    margin-bottom: 15%;
+}
+
+.engineering h2 {
+    color: rgb(2,113,177);
+    font-size: 34px;
+    margin: 0;
+    align-self: center;
+}
+
+.engineering p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    width: 90%;
+    align-self: center;
+}
+
+.analytics {
+    background-color: rgb(252,252,252);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.analytics img {
+    width: 220px;
+    height: 145px;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+.analytics h2 {
+    color: rgb(2,113,177);
+    font-size: 34px;
+    margin: 0;
+    width: 70%;
+    align-self: flex-end;
+}
+
+.analytics p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    width: 70%;
+    align-self: flex-end;
+}
+
+.engines {
+    background-color: rgb(212,212,212);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.engines h2 {
+    font-size: 34px;
+    color: rgb(2,113,177);
+    margin: 0;
+    width: 90%;
+    align-self: center;
+}
+
+.engines p {
+    font-size: 14px;
+    font-weight: 400;
+    margin:0;
+    width: 90%;
+    align-self: center;
+}
+
+.engines img {
+    width: 100%;
+    height: 110px;
+    margin-top:10%;
+}
+
+.intelligence {
+    background-color: rgb(102,224,163);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.intelligence img {
+    width: 265px;
+    height: 175px;
+    margin-bottom: 10%;
+}
+
+.intelligence h2 {
+    font-size: 34px;
+    color: rgb(2,113,177);
+    margin: 0%;
+    width: 70%;
+    align-self: center;
+}
+
+.intelligence p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0%;
+    width: 70%;
+    align-self: center;
 }
