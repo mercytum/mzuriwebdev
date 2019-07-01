@@ -63,7 +63,7 @@
 
 .left {
     width: 63%;
-    height: 100%;
+    height: 90%;
     padding-left: 2%;
     display: flex;
     flex-direction: column;
@@ -74,14 +74,14 @@
 .a {
     align-self: flex-end;
     font-size: 72px;
-    width: 70%;
+    width: 90%;
     margin-bottom: 5%;
 }
 
 .b{
     align-self: flex-end;
     font-size: 36px;
-    width: 70%;
+    width: 90%;
     margin: 0%;
 }
 
@@ -89,7 +89,7 @@
     font-size: 28px;
     font-weight: 500;
     align-self: flex-end;
-    width: 70%;
+    width: 90%;
     margin-top: 5%;
     color: rgb(2,151,236);
 }
@@ -152,7 +152,7 @@
 .left_about {
     background-color: black;
     width: 45%;
-    height: 100%;
+    height: 90%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
@@ -162,7 +162,7 @@
 .right_about {
     width: 45%;
     margin-right: 5%;
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
 }
@@ -177,7 +177,7 @@
 .about_h1 {
     align-self: flex-end;
     width: 77%;
-    font-size: 50px;
+    font-size: 2.5em;
     font-weight: 400;
     margin-top: 30%;
 }
@@ -190,7 +190,8 @@
 
 .about_p {
     justify-self: flex-end;
-    width: 80%;    
+    width: 80%; 
+    font-size: .875em;   
 }
 
 .values {
@@ -200,6 +201,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.values h2 {
+    font-size: 1.75em;
 }
 
 .values_img {
@@ -215,6 +220,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.process h2 {
+    font-size: 1.75em;
 }
 
 .process_img {
@@ -234,6 +243,10 @@
     width: 100%;
 }
 
+.better h2 {
+    font-size: 1.75em;
+}
+
 .better_img {
     height: 40%;
     width: 30%;
@@ -246,6 +259,11 @@
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+}
+
+.height {
+    height: 80%;
+    margin-top: 1%;
 }
 
 .services_top {
@@ -278,7 +296,7 @@
     color: rgb(103,193,244);
     width: 80%;
     margin-top: 10%;
-    font-size: 50px;
+    font-size: 2.5em;
 }
 
 .services {
@@ -291,7 +309,7 @@
 .services p {
     margin-left: 2%;
     color: white;
-    font-size: 14px;
+    font-size: .875em;
     font-weight: 300;
 }
 
@@ -306,7 +324,7 @@
 
 .science h2 {
     color: rgb(2,113,177);
-    font-size: 34px;
+    font-size: 1.75em;
     width: 90%;
     margin-top: 20%;
     margin-bottom: 0%;
@@ -314,9 +332,9 @@
 
 .science p {
     color: black;
-    font-weight: 400;
+    font-weight: 700;
     width: 95%;
-    font-size: 14px;
+    font-size: .75em;
     margin:0;
 }
 
@@ -344,14 +362,15 @@
 
 .engineering h2 {
     color: rgb(2,113,177);
-    font-size: 34px;
+    font-size: 1.75em;
     margin: 0;
-    align-self: center;
+    align-self: flex-end;
+    width: 95%;
 }
 
 .engineering p {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: .75em;
+    font-weight: 700;
     margin: 0;
     width: 90%;
     align-self: center;
@@ -374,15 +393,15 @@
 
 .analytics h2 {
     color: rgb(2,113,177);
-    font-size: 34px;
+    font-size: 1.75em;
     margin: 0;
     width: 70%;
     align-self: flex-end;
 }
 
 .analytics p {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: .75em;
+    font-weight: 700;
     margin: 0;
     width: 70%;
     align-self: flex-end;
@@ -398,7 +417,7 @@
 }
 
 .engines h2 {
-    font-size: 34px;
+    font-size: 1.75em;
     color: rgb(2,113,177);
     margin: 0;
     width: 90%;
@@ -406,8 +425,8 @@
 }
 
 .engines p {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: .75em;
+    font-weight: 700;
     margin:0;
     width: 90%;
     align-self: center;
@@ -434,7 +453,7 @@
 }
 
 .intelligence h2 {
-    font-size: 34px;
+    font-size: 1.75em;
     color: rgb(2,113,177);
     margin: 0%;
     width: 70%;
@@ -442,9 +461,31 @@
 }
 
 .intelligence p {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: .75em;
+    font-weight: 700;
     margin: 0%;
     width: 70%;
     align-self: center;
+}
+
+.main_intelligence {
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.intelligence_left {
+    background-color: black;
+    width:45%;
+    height: 90%;
+}
+
+.intelligence_right {
+    background-color: rgb(212,212,212);
+    width:45%;
+    height:90%;
 }

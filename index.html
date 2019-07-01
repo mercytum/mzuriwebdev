@@ -25,6 +25,7 @@
                     </div>                
                 </div>
             </nav>
+            <div class="height">
             <div class="content">
                 <div class="left"><br><br>
                     <h1 class="a">Mzuri Developers</h1>
@@ -45,45 +46,46 @@
                     <h2 class="slider2 mySlides2">4</h2>
                     <h2 class="slider2 mySlides2">5</h2>
                     <h2 class="slider2 mySlides2">6</h2>
-                <div class="menu">
-                    <a class="menu_bar" href="#"><img src="images/menu.png"></a>
-                    <a class="arrow1" href="#"><img src="images/left.png"></a>
-                    <a class="arrow2" href="#"><img src="images/right.png"></a>
+                    <div class="menu">
+                        <a class="menu_bar" href="#"><img src="images/menu.png"></a>
+                        <a class="arrow1" href="#"><img src="images/left.png"></a>
+                        <a class="arrow2" href="#"><img src="images/right.png"></a>
+                    </div>
                 </div>
+            </div>
         </div>
-    </div>
 
-    <script>
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 5000); // Change image every 2 seconds
-        }
-    </script>
-    <script>
-            var myNum = 0;
-            carousel2();
+        <script>
+            var myIndex = 0;
+            carousel();
             
-            function carousel2() {
-              var j;
-              var y = document.getElementsByClassName("mySlides2");
-              for (j = 0; j < y.length; j++) {
-                y[j].style.display = "none";  
-              }
-              myNum++;
-              if (myNum > y.length) {myNum = 1}    
-              y[myNum-1].style.display = "block";  
-              setTimeout(carousel2, 5000); // Change image every 2 seconds
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
             }
-    </script>
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 5000); // Change image every 2 seconds
+            }
+        </script>
+        <script>
+                var myNum = 0;
+                carousel2();
+                
+                function carousel2() {
+                var j;
+                var y = document.getElementsByClassName("mySlides2");
+                for (j = 0; j < y.length; j++) {
+                    y[j].style.display = "none";  
+                }
+                myNum++;
+                if (myNum > y.length) {myNum = 1}    
+                y[myNum-1].style.display = "block";  
+                setTimeout(carousel2, 5000); // Change image every 2 seconds
+                }
+        </script>
     </body>
 </html>
