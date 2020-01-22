@@ -1,6 +1,7 @@
 /* Home page starts here */
 body {
     overflow-y: hidden;
+    zoom: 95%;
 }
 .container{
     width: 100vw;
@@ -81,6 +82,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: flex-end;
+    margin-left: 5%;
 }
 
 .a {
@@ -99,11 +101,17 @@ body {
 
 .c {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 600;
     align-self: flex-end;
     width: 90%;
     margin-top: 5%;
     color: rgb(2,151,236);
+}
+
+.left img {
+    margin-left: 3%;
+    height: 50%;
+    width: 10%;
 }
 
 .right {
@@ -142,7 +150,7 @@ body {
 }
 
 
-.menu {
+#menu {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -158,8 +166,22 @@ body {
     margin-left: 55px;
 }
 
+.work_btn {
+    justify-self: flex-start;
+    width: 100%;
+    text-align: left;
+    margin-right: 40%;
+    color: white;
+    font-weight: 500;
+}
+
 .arrow1{
     width: 10%;
+    margin-right: 5%;
+}
+
+.arrow2 {
+    margin-right: 5%;
 }
 
 /* About page starts here */
@@ -168,15 +190,15 @@ body {
     display: flex;
     flex-direction: row;
     height: 80%;
-    margin-top: 2%;
+    /* margin-top: 2%; */
     padding: 0%;
-    margin-bottom: 0;
+    margin-bottom: 0%;
 }
 
 .left_about {
     background-color: black;
     width: 45%;
-    height: 90%;
+    height: 100%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
@@ -186,7 +208,7 @@ body {
 .right_about {
     width: 45%;
     margin-right: 5%;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -196,6 +218,10 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     width: 90%;
+}
+
+a {
+    text-decoration: none;
 }
 
 .about_h1 {
@@ -292,7 +318,6 @@ body {
     height: 80%;
 }
 
-
 .services_top {
     height: 50%;
     margin-right: 7%;
@@ -352,7 +377,7 @@ body {
 .science h2 {
     color: rgb(2,113,177);
     font-size: 1.75em;
-    width: 90%;
+    width: 100%;
     margin-top: 20%;
     margin-bottom: 0%;
 }
@@ -390,9 +415,10 @@ body {
 .engineering h2 {
     color: rgb(2,113,177);
     font-size: 1.75em;
-    margin: 0;
+    margin:0;
     align-self: flex-end;
-    width: 95%;
+    width: 100%;
+    padding-left: 5%;
 }
 
 .engineering p {
@@ -404,7 +430,7 @@ body {
 }
 
 .analytics {
-    background-color: rgb(252,252,252);
+    background-color: rgb(250,250,250);
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -421,15 +447,17 @@ body {
 .analytics h2 {
     color: rgb(2,113,177);
     font-size: 1.75em;
-    margin: 0;
-    width: 70%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    padding-left: 30%;
+    width: 100%;
     align-self: flex-end;
 }
 
 .analytics p {
     font-size: .75em;
     font-weight: 700;
-    margin: 0;
+    margin-top: -2%;
     width: 70%;
     align-self: flex-end;
 }
@@ -447,7 +475,7 @@ body {
     font-size: 1.75em;
     color: rgb(2,113,177);
     margin: 0;
-    width: 90%;
+    width: 100%;
     align-self: center;
 }
 
@@ -455,7 +483,7 @@ body {
     font-size: .75em;
     font-weight: 700;
     margin:0;
-    width: 90%;
+    width: 100%;
     align-self: center;
 }
 
@@ -484,15 +512,17 @@ body {
     font-size: 1.75em;
     color: rgb(2,113,177);
     margin: 0%;
-    width: 70%;
+    width: 100%;
+    padding-left: 10%;
     align-self: center;
+    margin-top: -5%;
 }
 
 .intelligence p {
     font-size: .75em;
     font-weight: 700;
     margin: 0%;
-    width: 70%;
+    width: 80%;
     align-self: center;
 }
 
@@ -606,6 +636,16 @@ body {
     margin-top: 15%;
 }
 
+.services_btn {
+    justify-self: flex-start;
+    width: 100%;
+    text-align: left;
+    margin-right: 50%;
+    margin-left: -5%;
+    color: white;
+    font-weight: 500;
+}
+
 /* our work page starts here */
 
 .work {
@@ -615,6 +655,10 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
+}
+
+.work a {
+    width: 100%;
 }
 
 .work h2 {
@@ -735,6 +779,19 @@ body {
 
 /* better page under about:- about_better */
 
+.menu_better {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-self: flex-end; */
+    height: 10%;
+    padding: 0;
+    width: 35%;
+    background-color: rgb(24,180,137);
+    align-self: flex-end;
+    margin-right: 5%;
+}
+
 .content_better {
     margin-top: 0%;
     height: 80%;
@@ -744,7 +801,7 @@ body {
 .better_top {
     height: 50%;
     margin-right: 5%;
-    margin-left: 6%;
+    margin-left: 9%;
     display: flex;
     flex-direction: row;
 }
@@ -752,7 +809,7 @@ body {
 .better_bottom {
     height: 50%;
     margin-right: 5%;
-    margin-left: 6%;
+    margin-left: 9%;
     display: flex;
     flex-direction: row;
 }
@@ -775,30 +832,34 @@ body {
 }
 
 .better1 {
-    background-color: rgb(251,251,251);
+    background-color: rgb(250,250,250);
     width: 25%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 5%;
 }
 
 .better1 h2 {
     color: rgb(2,113,177);
     font-size: 1.75em;
-    margin: 0;
     align-self: flex-end;
     width: 95%;
+    padding: 0%;
+    margin-top: 20%;
+    margin-bottom: 0%;
 }
 
 .better1 p {
     font-size: .75em;
     font-weight: 700;
-    margin: 0;
     width: 90%;
+    margin: 0%;
     align-self: center;
     margin-bottom: 15%;
+    margin-top: 0%;
+    padding: 0%;
+
 }
 
 .better1 img {
@@ -839,7 +900,7 @@ body {
 
 .better3 {
     background-color: rgb(207,207,207);
-    width: 25%;
+    width: 27%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -899,6 +960,31 @@ body {
 .better4 img {
     align-self: flex-end;
     margin-right: 5%;
+}
+
+.menu {
+    width: 0%;
+    margin-left: 55px;  
+}
+
+.menu_better1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-self: flex-end; */
+    height: 10%;
+    padding: 0;
+    width: 33.5%;
+    background-color: rgb(24,180,137);
+    align-self: flex-end;
+    margin-right: 5%;
+    margin-top: 0%;  
+}
+
+.menu_better1 .services_btn {
+    margin-left: -3%;
+    width: 100%;
+    margin-right: 45%;
 }
 
 /*Our values page */
@@ -1048,6 +1134,20 @@ body {
     font-weight: 400;
 }
 
+.menu_about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-self: flex-end; */
+    height: 10%;
+    padding: 0;
+    width: 45%;
+    background-color: rgb(24,180,137);
+    align-self: flex-end;
+    margin-right: 5%;
+    margin-top: 0%;
+}
+
 /* Inside the work page */
 
 
@@ -1147,22 +1247,138 @@ body {
     color: white;
 }
 
+.menu_work {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-self: flex-end; */
+    height: 10%;
+    padding: 0;
+    width: 30%;
+    background-color: rgb(24,180,137);
+    align-self: flex-end;
+    margin-right: 5%;
+    margin-top: 0%; 
+}
+
+.work_btn1 {
+    justify-self: flex-start;
+    width: 100%;
+    text-align: left;
+    margin-right: 30%;
+    color: white;
+    font-weight: 500;
+    margin-left: -10%;
+}
 
 /* Contact Us Page */
 
+.contact_main {
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90%;
+    margin-left: 10%;
+    margin-right: 2%;
+
+}
+
 .contact_left {
-    background-color: pink;
     width:45%;
-    height: 100%;
+    height: 90%;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+
+.contact_upper {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    padding: 0%;
+    justify-content: flex-end;
+}
+
+.contact_upper h1 {
+    height: 30%;
+    margin: 0%;
+}
+
+.contact_upper h2 {
+    height: 20%;
+    margin: 0%;
+    color: rgb(2,151,236);;
+
+}
+
+.contact_lower {
+    height: 71%;
+}
+
+form {
+    font-size: 1em;
+    font-weight: 550;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 1em;
+    width: 80%;
+    border-bottom: 2px solid black;
+}
+
+.submit_btn {
+    border: black;
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 90px;
+    margin-left: 63%;
 }
 
 .contact_right {
     background-color: rgb(212,212,212);
     width:45%;
-    height:100%;
+    height:90%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
 }
 
+.contact_right h2 {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.beverage1 {
+    width: 100px;
+    height: 100px;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+.beverage2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.beverage_top {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.beverage_bottom {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
 
 /*  */
